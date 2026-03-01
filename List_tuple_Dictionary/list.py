@@ -3,8 +3,15 @@ print(len(vishnu_dream)) #lenght of the given list
 print(vishnu_dream[0],vishnu_dream[1])  # this [0] will show the value in the list position
 print(vishnu_dream[0]+vishnu_dream[1])
 print(vishnu_dream)
+vishnu_dream.insert(2,"loss")
+print(f"This added a new oject to the list{vishnu_dream}")
+
+print(vishnu_dream.index("College"))
 
 #for fethching anf prininting each item at a time using indesxing
+for i in range(0,len(vishnu_dream)-2):
+    print(f"this will print only upto{vishnu_dream[i]}")
+
 
 for i in range(len(vishnu_dream)):
     print(f"this is printing {vishnu_dream[i]}")
